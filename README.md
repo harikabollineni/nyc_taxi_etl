@@ -17,14 +17,13 @@ nyc_taxi_etl/
 
 
 ---
+⚙️ Tools & Technologies
 
-## ⚙️ Tools & Technologies
-
-- **Python 3.10**
-- **Pandas** – data cleaning & transformation
-- **SQLAlchemy + psycopg2** – PostgreSQL connection
-- **PostgreSQL** – target database
-- **Jupyter Notebook** (optional, for data exploration)
+- Python 3.10
+- Pandas – data cleaning & transformation
+- SQLAlchemy + psycopg2– PostgreSQL connection
+- PostgreSQL– target database
+- Jupyter Notebook (optional, for data exploration)
 
 ---
 
@@ -51,12 +50,9 @@ engine = create_engine("postgresql+psycopg2://<username>:<password>@localhost:54
 5. Run ETL Script
 python etl.py
 
-
 This will:
 
 Extract NYC Taxi dataset from Parquet
-
 Transform the data (cleaning, schema alignment)
-
 Load into PostgreSQL table green_taxi_data
 
