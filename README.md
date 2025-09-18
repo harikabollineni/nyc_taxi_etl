@@ -7,13 +7,14 @@ The pipeline extracts data from Parquet files, cleans and transforms it with "Pa
 
 Project Structure
 
+```text
 nyc_taxi_etl/
 │
-├── data/ # Input data (Parquet files)
-├── etl.py # Main ETL script
-├── requirements.txt # Python dependencies
-├── README.md # Documentation
-└── venv/ # Virtual environment (ignored in git)
+├── data/                  # Input data (Parquet files)
+├── etl.py                 # Main ETL script
+├── requirements.txt       # Python dependencies
+├── README.md              # Documentation
+└── venv/                  # Virtual environment (ignored in git)
 
 
 ---
@@ -56,3 +57,11 @@ Extract NYC Taxi dataset from Parquet
 Transform the data (cleaning, schema alignment)
 Load into PostgreSQL table green_taxi_data
 
+Future Enhancements
+
+Automate pipeline with Apache Airflow
+Add unit tests and data validation checks
+Schedule ETL jobs for new data
+Build dashboards for visualization
+
+Dataset: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
