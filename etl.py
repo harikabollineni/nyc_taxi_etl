@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 # ----------------------------
 PARQUET_FILE = r"C:\nyc_taxi_etl\data\green_tripdata_2024-09.parquet"
 POSTGRES_USER = "postgres"
-POSTGRES_PASSWORD = "Ammu@0307"  # remember to URL-encode special chars when connecting
+POSTGRES_PASSWORD = "your_password"  # remember to URL-encode special chars when connecting
 POSTGRES_DB = "nyc_taxi"
 POSTGRES_HOST = "localhost"
 TABLE_NAME = "green_taxi_data"
